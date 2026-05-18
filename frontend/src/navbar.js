@@ -30,7 +30,6 @@ document.addEventListener("DOMContentLoaded", () => {
   if (header) header.innerHTML = navbar;
 });
 
-// Hamburger menu toggle
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('nav ul');
 
