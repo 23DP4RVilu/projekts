@@ -3,12 +3,29 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
+
     "strict": false,
+
     "jsx": "preserve",
     "sourceMap": true,
+    "noEmit": true,
+
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": ["ESNext", "DOM"]
+
+    "lib": ["ESNext", "DOM"],
+
+    "types": ["vite/client"],
+
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
+
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ]
 }
