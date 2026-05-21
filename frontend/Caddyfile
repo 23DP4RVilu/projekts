@@ -1,9 +1,5 @@
-{
-    admin off
-}
-
-http://:80 {
+:{$PORT} {
     root * /app/dist
-    try_files {path} /index.html
     file_server
+    try_files {path} /index.html
 }
